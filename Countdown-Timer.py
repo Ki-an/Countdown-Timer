@@ -18,7 +18,7 @@ Answer = str(input())
 if Answer =="yes"or"Yes":
   print("Your timer has begun!")
 else:
- print("Sorryabout that. Please try again!")
+ print("Sorry about that. Please try again!")
  exit()
 
 	
@@ -37,5 +37,5 @@ while seconds>-1:
 #Format time in 00:00:00
 
 #Bugs
-#Bug whee if minutes = 0 and seconds = 0 the timer will resort to negative values.
+#Bug where if minutes = 0 and seconds = 0 the timer will resort to negative values.
 #Try creating a check for this and ending the code if the check is met with a send away message.
